@@ -1,13 +1,13 @@
 [
  {
-   "repository" : "DirtyUnicorns/android_device_oneplus_msm8998-common",
+   "repository" : "GreatManatax/android_device_oneplus_msm8998-common",
    "target_path": "device/oneplus/msm8998-common",
-   "branch"     : "q10x"
+   "branch"     : "test"
  },
  {
-   "repository" : "DirtyUnicorns/android_device_oneplus_extras",
+   "repository" : "GreatManatax/android_device_oneplus_extras",
    "target_path": "device/oneplus/extras",
-   "branch"     : "q10x"
+   "branch"     : "test"
  },
  {
    "repository" : "DirtyUnicorns/android_vendor_codeaurora_telephony",
