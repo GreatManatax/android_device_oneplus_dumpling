@@ -7,7 +7,7 @@
  {
    "repository" : "GreatManatax/android_device_oneplus_extras",
    "target_path": "device/oneplus/extras",
-   "branch"     : "test"
+   "branch"     : "q10x"
  },
  {
    "repository" : "DirtyUnicorns/android_vendor_codeaurora_telephony",
@@ -20,7 +20,7 @@
    "branch"     : "q10x-legacy"
  },
  {
-   "repository" : "DirtyUnicorns/android_kernel_oneplus_msm8998",
+   "repository" : "GreatManatax/android_kernel_oneplus_msm8998",
    "target_path": "kernel/oneplus/msm8998",
    "branch"     : "q10x"
  },
@@ -45,9 +45,9 @@
    "branch"     : "q10x"
  },
  {
-   "repository" : "DirtyUnicorns/android_vendor_oneplus",
+   "repository" : "GreatManatax/android_vendor_oneplus",
    "target_path": "vendor/oneplus",
-   "branch"     : "q10x"
+   "branch"     : "test"
  },
  {
    "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_audio",
