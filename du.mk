@@ -41,7 +41,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus5T-user 9 PKQ1.180716.001 1907311828 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
- 	ro.build.version.security_patch=2019-08-01
+ 	ro.build.version.security_patch=2019-08-01 \
+ 	persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
+
 
 BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:9/PKQ1.180716.001/1907311828:user/release-keys
 
