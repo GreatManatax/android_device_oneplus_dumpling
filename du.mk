@@ -24,6 +24,8 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common custom stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
+TARGET_INCLUDE_STOCK_ARCORE := true
+
 PRODUCT_NAME := du_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
